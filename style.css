@@ -7,7 +7,7 @@
     --botao-azul-efeito: #3c92fa;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
@@ -20,7 +20,7 @@ margin: 0;
 padding: 0;
 }
 
-.principal{
+.principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,13 +28,13 @@ padding: 0;
     text-align: center;
 }
 
-.container{
+.container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.container__botao{
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
@@ -58,3 +58,32 @@ border: 2px solid var([branco-principal]);
     font-size: 28px;
     font-weight: 700;
 }
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700%;
+    font-size: 48px;
+    color: var(--cinza-secundario);
+    margin-bottom: o.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
